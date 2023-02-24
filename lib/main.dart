@@ -1,17 +1,19 @@
 import 'package:cu_lost_and_find/utils/routes/route_names.dart';
 import 'package:cu_lost_and_find/utils/routes/routes.dart';
 import 'package:cu_lost_and_find/views/screens/splash/splash.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-void main() {
+void main() async {
   runApp(const MyApp());
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([
-    DeviceOrientation.landscapeLeft,
-    DeviceOrientation.landscapeRight,
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown,
   ]);
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
+  await Firebase.initializeApp();
 }
 
 class MyApp extends StatelessWidget {

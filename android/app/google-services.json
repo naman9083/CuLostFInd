@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "232280898378",
+    "project_id": "culostfound-35d42",
+    "storage_bucket": "culostfound-35d42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232280898378:android:58373fca079d4c5c75dfb3",
+        "android_client_info": {
+          "package_name": "com.tanz.cu_lost_find"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232280898378-5pgeippdqiqongk1fuerqvdusqa039oq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tanz.cu_lost_find",
+            "certificate_hash": "efda3ec81cb89ad4dd33ba6bdd4a9b3d3b4ae5da"
+          }
+        },
+        {
+          "client_id": "232280898378-qmvhbgalneg9o4fbuem3968vpok92lrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGF1NHrVGyNvOJDQTPkm6sgbgasbpOf5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232280898378-gmi6p5ep78bs2u7h0spdn0m7o4p44i9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

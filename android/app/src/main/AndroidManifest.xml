@@ -1,9 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tanz.cu_lost_find.cu_lost_and_find">
+    package="com.tanz.cu_lost_find">
    <application
-        android:label="cu_lost_and_find"
+        android:label="CU Worry Free"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@drawable/ic_launcher">
         <activity
             android:name=".MainActivity"
             android:exported="true"

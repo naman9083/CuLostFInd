@@ -1,5 +1,6 @@
 import 'package:cu_lost_and_find/utils/routes/route_names.dart';
-import 'package:cu_lost_and_find/views/screens/authentication/Login.dart';
+import 'package:cu_lost_and_find/views/screens/home/homepage.dart';
+import 'package:cu_lost_and_find/views/screens/login/signIn.dart';
 import 'package:cu_lost_and_find/views/screens/splash/splash.dart';
 import 'package:flutter/material.dart';
 
@@ -16,13 +17,13 @@ class Routes {
         return MaterialPageRoute(
             builder: (BuildContext context) => const ErrorScreen());
 
-      case RouteNames.categoryLoginScreen:
+      case RouteNames.LoginScreen:
         return MaterialPageRoute(
-            builder: (BuildContext context) => const Login());
+            builder: (BuildContext context) => const SignIn());
 
-      // case RouteNames.homeScreen:
-      //   return MaterialPageRoute(
-      //       builder: (BuildContext context) => const HomePage());
+      case RouteNames.homeScreen:
+        return MaterialPageRoute(
+            builder: (BuildContext context) => const HomePage());
       //
       // case RouteNames.LoginScreen:
       //   return MaterialPageRoute(
